@@ -59,7 +59,7 @@ VITE_OPENAI_API_KEY=your_openai_api_key
 VITE_WHOIS_API_KEY=your_whois_api_key
 ```
 ## IMPORTANT
-Please send a request to my email so that I can share with you the env file to make this work.
+Please send a request to my email alan.ontue@gmail.com so that I can share with you the env file to make this work.
 Since the API keys for openAI and WhoisXML are encrypted using secret manager and the cloud functions are deployed in the same GCP instance.
 
 ### Running the Application
