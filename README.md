@@ -59,16 +59,8 @@ VITE_OPENAI_API_KEY=your_openai_api_key
 VITE_WHOIS_API_KEY=your_whois_api_key
 ```
 ## IMPORTANT
-Please use the .env below as the APIs are hosted  on my cloud functions since I need to encrypt the openAI key.
-I've set the firestore rule expiry date to access the firestore database until April 2025
-```env
-  VITE_FIREBASE_API_KEY=AIzaSyDd-Xy5zqteDDX9PGBqz4L7NJvB5lWeZBM
-  VITE_FIREBASE_PROJECT_ID=manuscriptr-dev
-  VITE_FIREBASE_STORAGE_BUCKET=manuscriptr-dev.appspot.com
-  VITE_FIREBASE_SENDER_ID=127339513256
-  VITE_FIREBASE_APP_ID=1:127339513256:web:19fd0bbd2c94b28eaac99d
-  VITE_WHOIS_API_KEY=at_9lJSRGKAUsRxramy7h0pXsm8AnOJ9
-```
+Please send a request to my email so that I can share with you the env file to make this work.
+Since the API keys for openAI and WhoisXML are encrypted using secret manager and the cloud functions are deployed in the same GCP instance.
 
 ### Running the Application
 1. **Start Firebase emulators (optional, for local testing):**
