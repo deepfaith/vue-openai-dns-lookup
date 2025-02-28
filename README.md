@@ -20,7 +20,7 @@ This project is a Vue 3 application using Vite and Vuetify for the frontend and 
 - Firebase Cloud Functions
 - Firebase Firestore
 - OpenAI API
-- Express.js
+- Cloud Functions and Axios
 - WhoisXML API (for domain lookup)
 
 ## Setup Instructions
@@ -87,7 +87,7 @@ Since the API keys for openAI and WhoisXML are encrypted using secret manager an
    - Go to the Firebase console and enable Firestore in your project.
 
 ## API Endpoints
-### Cloud Function (Domain Lookup)
+### Cloud Functions
 **Endpoints:**
 - converseWithOpenAI
 - domainLookUpWhoIs
